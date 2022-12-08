@@ -14,16 +14,21 @@
   color: #2f80ed;
   display: block;
   font-family: "Noto Serif", serif;
-  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
 }
 
 .header__title {
+  max-width: 729px;
+  margin-top: 202px;
+  margin-bottom: 28px;
   font-size: 60px;
   line-height: 72px;
   font-weight: 500;
+  font-style: normal;
   font-family: "Inter", sans-serif;
-  margin: 200px 0 0;
-  max-width: 729px;
+  z-index: 0;
+  
 }
 
 .header__description {

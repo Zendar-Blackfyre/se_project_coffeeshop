@@ -37,10 +37,6 @@
   
 }
 
-.recipes__video:first-child {
-  margin-right: 40px;
-}
-
 .recipes__video-caption {
   margin: 24px 0;
   font-family: "Inter", sans-serif;
@@ -49,7 +45,7 @@
   font-size: 20px;
   line-height: 30px;
   display: flex;
-  justify-content: baseline;
+  justify-content: space-between;
   padding-left: 0;
 }
 
