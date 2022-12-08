@@ -66,6 +66,7 @@
         </div>
         </div>
       </header>
+      /* content block begins */
       <main class="content">
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
@@ -169,6 +170,8 @@
             </div>
           </ul>
         </section>
+        /* content block ends*/
+        /*recipes block begins */
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
@@ -176,7 +179,7 @@
             convenience:
           </p>
           <div class="recipes__videos">
-           <div class="recipes__videos">
+           <div class="recipes__videos-item">
               <iframe
                 class="recipes__iframe"
                  width="480"
@@ -186,15 +189,15 @@
                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                  allowfullscreen>
                 </iframe>
-              <p class="iframe__video-caption">
-              <span>Aeropress recipe</span>
-              <span>~5 min</span> 
-              </p>
+                <p class="iframe__video-caption">
+                  <span> Aeropress recipe</span>
+                  <span>~5 min</span> 
+                  </p>               
             </div>
             
             <div class="recipes__video">
               <iframe 
-              class="iframe__recipes"
+              class="recipes__iframe"
               width="480"
               height="273"
               src="https://www.youtube.com/embed/st571DYYTR8"
@@ -207,9 +210,10 @@
               <span>~15 min</span> 
               </p>
             </div>
-          
-           </div>
+          </div>
           </section>
+          /* recipes block ends */
+          /* Reservation block# begin/
         <section class="reservation" id="book a table">
           <h2 class="reservation__title">Book a table</h2>
           <div class="reservation__form">
@@ -268,7 +272,9 @@
               </label>
             </form>
           </div>
-        </section>
+                  </section>
+          /* Reservation block ends*/
+          /*about block begins*/
         <section class="about" id="contacts">
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
@@ -287,7 +293,9 @@
             <div class="about__circle"></div>
           </div>
         </section>
+        /*about block ends*/
       </main>
+      /*footer block begins */
       <footer class="footer" id="contacts">
         <div class="footer__contents">
           <div class="footer__content">
@@ -325,6 +333,7 @@
         </div>
         <p class="footer__copyright">&copy;2022 Frederick Philpot</p>
       </footer>
+      /* footer block ends */
     </div>
   </body>
 </html>
