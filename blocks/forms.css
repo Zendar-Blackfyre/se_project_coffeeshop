@@ -1,104 +1,70 @@
 .form {
-  padding: 20px 128px;
-  font-family: "Inter", sans-serif;
-  box-sizing: border-box;
+  margin: 0 auto 120px auto;
+  max-width: 385px;
 }
 
 .form__fieldset {
-  box-sizing: border-box;
-  width: 100%;
-  border: none;
-  padding: 0;
-  margin: 0 0 32px;
-}
-
-.form__fieldset:last-of-type {
-  margin-bottom: 0;
+  max-width: 385px;
 }
 
 .form__label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  row-gap: 8px;
-  margin-bottom: 32px;
 }
 
-.form__label:last-of-type {
-  margin-bottom: 0;
-}
-
-.form__label_type_checkbox {
-  flex-direction: row;
-  align-items: center;
-  column-gap: 12px;
-}
-
-.form__item {
-  border-radius: 4px;
+.form__input {
   box-sizing: border-box;
-  width: 100%;
-  font: inherit;
-  background-color: #fff;
-  padding: 19px 20px;
-  border: 1px solid #838383;
+  width: 385px;
+  border-radius: 4px;
+  border: 0;
+  margin: 0 auto 32px auto;
+  height: 60px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
-.form__item::placeholder {
+.form__input_date {
+}
+
+.form__input {
+}
+
+.form__input::placeholder {
   font-size: 20px;
   line-height: 30px;
   color: #838383;
 }
 
 .form__button {
-  box-sizing: border-box;
-  border: 0;
-  margin: 0;
-  padding: 20px 32px;
-  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   background-color: #2f80ed;
-  border-radius: 4px;
-  width: 100%;
-  font-family: inherit;
-  transition: opacity 0.4s;
   color: #fff;
+  height: 60px;
+  width: 385px;
 }
 
 .form__button:hover {
   opacity: 0.7;
 }
 
-.form__button:focus {
-  outline-color: #fff6c5;
-}
-
 .form__checkbox {
+  margin: 0 12px 0 auto;
   border-radius: 2px;
-  appearance: none;
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
-  width: 20px;
   height: 20px;
-  border: 1px solid #4f4f4f;
-  color: #2b303a;
+  width: 20px;
+  background-color: #2f80ed;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-.form__checkbox:checked {
-  background: #2f71e5 url("../images/check.svg") no-repeat center;
-  background-size: 60%;
+.form__label-checkbox {
+  display: flex;
+  justify-content: center;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
