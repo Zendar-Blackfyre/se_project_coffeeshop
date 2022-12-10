@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-    />
+          />
 
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
@@ -258,14 +257,15 @@
                 required
               />
               <button class="form__button" type="button">Book a table</button>
-              <label class="form__agreement">
-                <input
-                  class="form__input_checkbox form__input"
-                  type="checkbox"
-                  id="form__agreement"
+							<label class="form__terms">
+								<input
+									type="checkbox"
+									class="form__checkbox"
+									name="terms-of-use"
+									id="terms-of-use"
                 />
+               I agree with the terms of use
               </label>
-              I agree with the terms of use
             </fieldset>
           </form>
         </section>
@@ -294,41 +294,41 @@
       </main>
       <!--footer block begins-->
       <footer class="footer">
-        <div class="footer__contents">
+        <div class="footer__content">
           <img
             class="footer__logo"
             src="../images/practicum_logo.svg"
             alt="Practicum Logo in Letters"
           />
 
-          <div class="footer__content footer__content_type_social-heading">
-            <h2 class="footer__social-heading">Social Media</h2>
-            <ul class="footer__list">
-              <li class="footer__list-item">
-                <a href="#" class="footer__social-link">
-                  <img
-                    class="footer__social-icon"
-                    src="../images/facebook_white.svg"
-                    alt="Facebook Icon"
-                  />
-                  Facebook</a
-                >
-              </li>
-              <li class="footer__list-item">
-                <a href="#" class="footer__social-link">
-                  <img
-                    class="footer__social-icon"
-                    src="../images/instagram_white.svg"
-                    alt="Instagram Icon"
-                  />
-                  Instagram
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <p class="footer__copyright">&copy;2022 Frederick Philpot</p>
-      </footer>
+          <div class="footer__social">
+						<h2 class="footer__social-heading">Social Media</h2>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a class="footer__social-link" href="#">
+									<img
+										class="footer__social-icon"
+										src="./images/facebook_white.svg"
+										alt="Facebook Logo"
+									/>
+									Facebook
+								</a>
+							</li>
+							<li class="footer__list-item">
+								<a class="footer__social-link" href="#">
+									<img
+										class="footer__social-icon"
+										src="./images/instagram_white.svg"
+										alt="Instagram Logo"
+									/>
+									Instagram
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<p class="footer__copyright">© 2022 Raeann Lytle</p>
+			</footer>
       <!--footer block ends-->
     </div>
   </body>
