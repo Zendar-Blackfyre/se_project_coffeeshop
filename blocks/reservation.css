@@ -26,11 +26,9 @@
 	padding: 0;
 	border-style: none;
 }
-.form__fieldset {
-	border-style: none;
-}
+
+
 .form__checkbox {
 	margin-left: 72px;
 	margin-top: 32px;
 }
-
