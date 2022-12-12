@@ -1,7 +1,6 @@
 .reservation__form {
   margin: 0 auto 120px auto;
   max-width: 385px;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -24,7 +23,7 @@
   box-sizing: border-box;
   width: 385px;
   border-radius: 4px;
-  border: solid 1px;
+  border: solid 1px #838383;
   margin: 0 auto 32px auto;
   height: 60px;
   font-size: 20px;
@@ -46,7 +45,7 @@
   color: #fff;
   height: 60px;
   width: 385px;
-  border-radius: 4px;
+  border-radius: none;
 }
 
 .form__button:hover {
@@ -65,7 +64,4 @@
   line-height: 20px;
 }
 
-.form__label-checkbox {
-  display: flex;
-  justify-content: center;
-}
+
