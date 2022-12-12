@@ -7,6 +7,9 @@
 	padding-top: 100px;
 	padding-bottom: 120px;
 	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+	border-style: none;
 }
 
 .reservation__title {
@@ -20,13 +23,6 @@
 	display: flex;
 	justify-content: center;
 	}
-
-.reservation__form {
-	margin: 0 auto;
-	padding: 0;
-	border-style: none;
-}
-
 
 .form__checkbox {
 	margin-left: 72px;
