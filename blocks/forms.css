@@ -1,10 +1,9 @@
-.form{
+.form {
   flex-wrap: wrap;
 }
 .reservation__form {
   margin: 0 auto 120px auto;
   max-width: 385px;
-  
 }
 
 .form__fieldset {
@@ -48,7 +47,7 @@
   color: #fff;
   height: 60px;
   width: 385px;
-  }
+}
 
 .form__button:hover {
   opacity: 0.7;
@@ -64,6 +63,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin-left: 72px;
+  margin-top: 32px;
+  
 }
-
-
