@@ -12,7 +12,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.card__content {
+.card__list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@
   font-family: "Noto Serif", serif;
   display: flex;
   align-items: baseline;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   padding-left: 0;
   list-style: none;
 
