@@ -7,6 +7,7 @@
   padding-top: 100px;
   box-sizing: border-box;
   background-image: url("../images/background_recipes.svg");
+  padding-bottom: 215px;
 }
 
 .recipes__title {
@@ -51,6 +52,7 @@
   display: flex;
   justify-content: space-between;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .recipes__iframe{

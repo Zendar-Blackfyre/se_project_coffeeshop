@@ -8,7 +8,6 @@
   padding-bottom: 120px;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 0;
   border-style: none;
 }
 
@@ -25,6 +24,9 @@
 }
 
 .reservation__form {
-  margin: 0 auto 120px auto;
-  max-width: 385px;
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-right: auto;
+ margin-left: auto;
+ max-width: 385px;
 }
